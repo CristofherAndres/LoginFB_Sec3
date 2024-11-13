@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646674433542",
+    "project_id": "loginandroid-b226e",
+    "storage_bucket": "loginandroid-b226e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646674433542:android:c26618b69bddd0be122587",
+        "android_client_info": {
+          "package_name": "com.example.loginfb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYIQWVa5zpS3vW_eRGlU_abOXcn1ru-24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
