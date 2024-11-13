@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
 
 
         //Programar el boton de login
-
         binding.btnLogin.setOnClickListener {
 
             val email = binding.etEmail.text.toString()
@@ -56,6 +55,13 @@ class MainActivity : AppCompatActivity() {
             signIn(email, pass)
 
         }
+
+        //Programar el botón de registro
+        binding.tvRegistrar.setOnClickListener {
+            val intent = Intent(this, Registrar::class.java)
+            startActivity(intent)
+        }
+
 
     }
 
